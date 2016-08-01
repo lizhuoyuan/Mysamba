@@ -1,4 +1,4 @@
-package li.zhuoyuan.samba;
+package li.zhuoyuan.samba.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import li.zhuoyuan.samba.R;
 
 /**
  * Created by SunFly on 2015/11/29.
