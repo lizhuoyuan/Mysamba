@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context="li.zhuoyuan.samba.fragment.DownloadFragment">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_circular"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/leftradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_checked_left"
+            android:button="@null"
+            android:padding="5dp"
+            android:text="已下载"
+            android:textColor="@drawable/download_checked_text"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/rightradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_checked_right"
+            android:button="@null"
+            android:padding="5dp"
+            android:text="下载中"
+            android:textColor="@drawable/download_checked_text"
+            android:textSize="20sp"/>
+    </RadioGroup>
+</LinearLayout>

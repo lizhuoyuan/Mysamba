@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/leftbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/lefttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全选"
+                android:textColor="#333"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/leftimg"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:src="@drawable/iconarrowright"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#333"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:id="@+id/rightbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|right"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rightimg1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:src="@drawable/icontitlebaradd"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/rightimg2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/icontitlebarchoose"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/righttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完成"
+                android:textColor="#333"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_color_gray"
+        />
+
+</LinearLayout>

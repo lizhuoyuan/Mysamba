@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="文 件 共 享"
+        android:textColor="#333333"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:src="@drawable/fly_file"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ipedit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edittext_border"
+            android:paddingLeft="10dp"
+            android:textColorHint="#d5d5d5"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edittext_border"
+            android:hint="输入工作组(可选)"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#999999"
+            android:textSize="30px"/>
+
+        <EditText
+            android:id="@+id/userEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_border"
+            android:hint="用户名"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#999999"
+            android:textSize="30px"/>
+
+        <EditText
+            android:id="@+id/passEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_border"
+            android:hint="密码"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#999999"
+            android:textSize="30px"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape"
+            android:text="登录"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+</LinearLayout>
