@@ -48,4 +48,10 @@
             android:padding="5dp"
             android:textColor="@color/text_color_gray"/>
     </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
 </LinearLayout>
